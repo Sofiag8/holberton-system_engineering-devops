@@ -1,2 +1,2 @@
-#!/bin/bash \n 
+#!/bin/bash  
 Learning Shell, Basics \n   
