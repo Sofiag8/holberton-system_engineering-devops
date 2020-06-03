@@ -1,2 +1,2 @@
 #!/bin/bash  
-Learning Shell, Basics \n   
+Project about learning Shell, basics.    
