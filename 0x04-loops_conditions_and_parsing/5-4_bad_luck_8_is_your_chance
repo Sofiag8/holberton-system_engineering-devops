@@ -12,4 +12,3 @@ while [ $i -lt 10 ]; do
       fi
 	i=$((i+1))
 done
-
