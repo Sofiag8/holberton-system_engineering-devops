@@ -169,3 +169,16 @@ sylvain@ubuntu$ ./7-OMG_WHY_ARE_YOU_SHOUTING.rb &quot;cannot read you&quot; | ca
 $
 sylvain@ubuntu$
 </code></pre>
+
+  <h4 class="task">
+    9. Pass LinkedIn technical interview level0
+#advanced
+  </h4>
+<p>One way to get started in getting a Software Engineering job at LinkedIn is to solve their regex puzzle.</p>
+
+<p>Requirements:</p>
+
+<ul>
+<li>Solve LinkedIn regex puzzle: <a href="https://engineering.linkedin.com/puzzle" title="https://engineering.linkedin.com/puzzle" target="_blank">https://engineering.linkedin.com/puzzle</a></li>
+<li>Provide as an answer file a screenshot of the &ldquo;Congratulations&rdquo; screen with the date and time of completion</li>
+</ul>
