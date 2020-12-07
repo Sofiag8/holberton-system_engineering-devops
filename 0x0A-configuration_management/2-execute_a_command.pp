@@ -1,4 +1,4 @@
-# killing a process with a puppet manifest
+# killing a process
 
-exec { ' /usr/bin/env pkill -9 killmenow':
+exec { '/usr/bin/env pkill -f killmenow':
 }
