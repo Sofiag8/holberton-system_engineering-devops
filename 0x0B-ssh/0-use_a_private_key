@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script that uses ssh to connect to my server using pvt key
+
+ssh -i ~/.ssh/holberton ubuntuy@35.237.76.6
