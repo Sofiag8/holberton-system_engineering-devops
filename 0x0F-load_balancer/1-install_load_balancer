@@ -5,7 +5,7 @@ sudo apt-get -y update
 sudo apt-get -y install haproxy
 # enable proxy to be started by the init script
 # by echo cmnd redirected to haproxy file
-sudo echo "ENABLED=1" >> sudo tee /etc/default/haproxy
+sudo echo "ENABLED=1" | sudo tee /etc/default/haproxy
 # configure the template for load balancer on the haproxy.cfg file
 sudo echo "
 frontend http_front
@@ -16,5 +16,5 @@ backend http_back
 	balance roundrobin
 	server 1943-web-01 35.196.158.6:80 check
 	server 1943-web-02 35.227.106.6:80 check
-" >> sudo tee /etc/haproxy/haproxy.cfg
+" | sudo tee -a /etc/haproxy/haproxy.cfg
 sudo service haproxy restart
