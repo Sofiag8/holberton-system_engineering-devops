@@ -22,7 +22,7 @@ global
 
 defaults
         option forwardfor
-        option httl-server-close
+        option http-server-close
         log     global
         mode    http
         option  httplog
