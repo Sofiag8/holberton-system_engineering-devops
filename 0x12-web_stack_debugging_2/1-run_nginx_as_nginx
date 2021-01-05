@@ -2,9 +2,9 @@
 # bash script fr nginx running, listening on all active IPs on port 8080
 pkill apache2
 # adding permissions
-chown nginx:nginx /etc/enginx/
-chmod -R 644 /etc/enginx/enginx.conf
+chown nginx:nginx /etc/nginx/
+chmod -R 644 /etc/nginx/nginx.conf
 # run server - listening on all active IPs on port 8080
 sed -i 's/8080/g' /etc/nginx/sites-available/default
 # nginx restarting as nginx user
-sudo -u enginx service nginx restart
+sudo -u nginx service nginx restart
