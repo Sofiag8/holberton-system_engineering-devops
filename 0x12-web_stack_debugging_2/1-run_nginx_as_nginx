@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# bash script fr nginx running, listening on all active IPs on port 8080
+# adding permissions
+chown nginx:nginx /etc/enginx/
+chmod -R 644 /etc/enginx/enginx.conf
+# run server - listening on all active IPs on port 8080
+sed -i 's/8080/g' /etc/nginx/sites-available/default
+# nginx restarting as nginx user
+sudo -u enginx service nginx restart
