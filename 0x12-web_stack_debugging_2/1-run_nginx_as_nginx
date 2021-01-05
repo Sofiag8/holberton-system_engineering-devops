@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # bash script fr nginx running, listening on all active IPs on port 8080
+pkill apache2
 # adding permissions
 chown nginx:nginx /etc/enginx/
 chmod -R 644 /etc/enginx/enginx.conf
