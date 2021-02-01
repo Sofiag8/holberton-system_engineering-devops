@@ -51,7 +51,7 @@
  <h4 class="task">
     0. Gather data from an API
   </h4>
-<p>Write a Python script that, using this <a href="/rltoken/0Ltm_dXy-m4E9jchBrKLVA" title="REST API" target="_blank">REST API</a>, for a given employee ID, returns information about his/her TODO list progress.</p>
+<p>Write a Python script that, using this <a href="https://jsonplaceholder.typicode.com/" title="REST API" target="_blank">REST API</a>, for a given employee ID, returns information about his/her TODO list progress.</p>
 
 <p>Requirements:</p>
 
