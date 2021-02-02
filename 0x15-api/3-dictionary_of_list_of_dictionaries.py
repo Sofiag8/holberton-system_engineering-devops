@@ -15,8 +15,8 @@ if __name__ == "__main__":
     user_req = requests.get(url_user).json()
     todo_req = requests.get(url_todo).json()
     json_format = {}
-    info_user_list = []
     for all_users in user_req:
+        info_user_list = []
         for all_tasks in todo_req:
             if all_users['id'] == all_tasks['userId']:
                 user_infor_dict = {
