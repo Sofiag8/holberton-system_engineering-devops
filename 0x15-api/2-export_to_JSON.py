@@ -1,11 +1,16 @@
 #!/usr/bin/python3
 """
-Using previos task code, export data in the CSV format
+Using previos task code, export data in the json format
 
 Requirements:
     Records all tasks that are owned by the employee
-    Specific format "USER_ID","USERNAME","TASK_COMPLETED_STATUS","TASK_TITLE"
-    Exported file name must be <user_id>.csv
+    Specific format:
+        { "USER_ID": [ {"task": "TASK_TITLE",
+        "completed": TASK_COMPLETED_STATUS,
+        "username": "USERNAME"}}, {"task": "TASK_TITLE",
+        "completed": TASK_COMPLETED_STATUS,
+        "username": "USERNAME"}}, ... ]}
+    Exported file name must be <user_id>.json
 """
 import json
 import requests
