@@ -7,9 +7,9 @@ Requirements:
     Specific format "USER_ID","USERNAME","TASK_COMPLETED_STATUS","TASK_TITLE"
     Exported file name must be <user_id>.csv
 """
+import csv
 import requests
 import sys
-import csv
 
 
 if __name__ == "__main__":
