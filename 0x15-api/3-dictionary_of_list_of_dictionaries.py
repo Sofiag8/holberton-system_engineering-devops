@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 """
+exporting all python script data of all users with
+all task to a json file.
+Is a dictionary of lists of dictionaries
 """
 import json
 import requests
