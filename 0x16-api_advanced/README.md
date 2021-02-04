@@ -42,11 +42,11 @@
 <h2 class="gap">Tasks</h2>
 
 
-  <h4 class="task">
-    0. How many subs?
-    </h4>
+<h4 class="task">
+0. How many subs?
+</h4>
 
-     <p>Write a function that queries the <a href="/rltoken/odMvR9obKnQCx5EaM6_YFA" title="Reddit API" target="_blank">Reddit API</a> and returns the number of subscribers (not active users, total subscribers) for a given subreddit. If an invalid subreddit is given, the function should return 0.</p>
+<p>Write a function that queries the <a href="https://www.reddit.com/dev/api/" title="Reddit API" target="_blank">Reddit API</a> and returns the number of subscribers (not active users, total subscribers) for a given subreddit. If an invalid subreddit is given, the function should return 0.</p>
 
 <p>Hint: No authentication is necessary for most features of the Reddit API. If you&rsquo;re getting errors related to Too Many Requests, ensure you&rsquo;re setting a custom User-Agent.</p>
 
@@ -58,10 +58,10 @@
 <li>NOTE: Invalid subreddits may return a redirect to search results. Ensure that you are not following redirects.</li>
 </ul>
 
- <h4 class="task">
-    1. Top Ten
-    </h4>
-    <p>Write a function that queries the <a href="/rltoken/odMvR9obKnQCx5EaM6_YFA" title="Reddit API" target="_blank">Reddit API</a> and prints the titles of the first 10 hot posts listed for a given subreddit.</p>
+<h4 class="task">
+1. Top Ten
+</h4>
+    <p>Write a function that queries the <a href="https://www.reddit.com/dev/api/" target="_blank">Reddit API</a> and prints the titles of the first 10 hot posts listed for a given subreddit.</p>
 
 <p>Requirements:</p>
 
@@ -75,7 +75,7 @@
     2. Recurse it!
     </h4>
 
-     <p>Write a <em>recursive function</em> that queries the <a href="/rltoken/odMvR9obKnQCx5EaM6_YFA" title="Reddit API" target="_blank">Reddit API</a> and returns a list containing the titles of all hot articles for a given subreddit. If no results are found for the given subreddit, the function should return None.</p>
+<p>Write a <em>recursive function</em> that queries the <a href="https://www.reddit.com/dev/api/" title="Reddit API" target="_blank">Reddit API</a> and returns a list containing the titles of all hot articles for a given subreddit. If no results are found for the given subreddit, the function should return None.</p>
 
 <p>Hint: The Reddit API uses pagination for separating pages of responses.</p>
 
