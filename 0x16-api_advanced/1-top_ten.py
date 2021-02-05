@@ -8,7 +8,7 @@ def top_ten(subreddit):
         listed for a given subreddit
     """
     url = 'https://www.reddit.com/r/{}/hot.json?limit=10'.format(subreddit)
-    headers = {'User_agent': 'someramdonstring'}
+    headers = {'User-Agent': 'someramdonstring'}
     subreddit_req = requests.get(url, headers=headers).json()
     if 'error' in subreddit_req:
         print("None")
