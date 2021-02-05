@@ -11,11 +11,12 @@ def recurse(subreddit, hot_list=[], count=''):
                                                                 count)
     headers = {'User-Agent': 'app,os,vendorandversion'}
     subreddit_req = requests.get(url, headers=headers).json()
-    if 'error' in subreddit_req:
-        return None
-    for titles in subreddit_req['data']['children']:
-        hot_list.append(titles['data']['title'])
-    count = subreddit_req['data']['after']
-    if count is None:  # nothing more in the listing
+    if 'error' not in subreddit_req:
+        for titles in subreddit_req['data']['children']:
+            hot_list.append(titles['data']['title'])
+        count = subreddit_req['data']['after']
+        if count is not None:  # nothing more in the listing
+            recurse(subreddit, hot_list, count)
         return hot_list
-    return recurse(subreddit, hot_list, count)
+    else:
+        return None
