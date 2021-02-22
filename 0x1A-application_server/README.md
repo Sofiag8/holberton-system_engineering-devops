@@ -3,17 +3,7 @@
 <h2>Background Context</h2>
 <p>Your web infrastructure is already serving web pages via <code>Nginx</code> that you installed in your <a href="https://intranet.hbtn.io/projects/266" title="first web stack project" target="_blank">first web stack project</a>. While a web server can also serve dynamic content, this task is usually given to an application server. In this project you will add this piece to your infrastructure, plug it to your <code>Nginx</code> and make is serve your Airbnb clone project.</p>
 
-<h2>Resources</h2>
 
-<p><strong>Read or watch</strong>:</p>
-
-<ul>
-<li><a href="/rltoken/RerpYBxsgrpIorHjbDgulw" title="Application server vs web server" target="_blank">Application server vs web server</a> </li>
-<li><a href="/rltoken/uosy5QXdMbDPA1tFTR1eoA" title="How to Serve a Flask Application with Gunicorn and Nginx on Ubuntu 16.04" target="_blank">How to Serve a Flask Application with Gunicorn and Nginx on Ubuntu 16.04</a> (As mentioned in the video, do <strong>not</strong> install Gunicorn using <code>virtualenv</code>, just install everything globally)</li>
-<li><a href="/rltoken/QTnnkj6vfQV9ovW_eYWWDQ" title="Running Gunicorn" target="_blank">Running Gunicorn</a> </li>
-<li><a href="/rltoken/whE8do28ZiJJoJLyb1ACwA" title="Be careful with the way Flask manages slash" target="_blank">Be careful with the way Flask manages slash</a> in <a href="/rltoken/JLjrXD4MLS3rUkQr5QyxtA" title="route" target="_blank">route</a>  - <code>strict_slashes</code></li>
-<li><a href="/rltoken/oQPs-o5UUcZkxOw5sNIM0g" title="Upstart documentation" target="_blank">Upstart documentation</a> </li>
-</ul>
 
 <h2>Requirements</h2>
 
